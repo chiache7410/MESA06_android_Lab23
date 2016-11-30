@@ -65,9 +65,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setImageBitmap(bmp);
     }
     private void take2() {
-        //Log.v("brad", "take2");
-        //Log.v("brad", "getPath() : " + photoFile.getPath());
-        //Log.v("brad", "getAbsolutePath() : " + photoFile.getAbsolutePath());
+        Log.v("brad", "getAbsolutePath() : " + photoFile.getAbsolutePath());
         Bitmap bmp = BitmapFactory.decodeFile(photoFile.getAbsolutePath());
         imageView.setImageBitmap(bmp);
     }
